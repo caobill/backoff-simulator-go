@@ -1,0 +1,13 @@
+   0.000  0  client_requests_write     
+   0.000  1  client_requests_write     
+   0.000  2  client_requests_write     
+   4.198  0  server_tentatively_writes 
+   4.501  2  server_tentatively_writes 
+   4.704  0  server_commits            version=1
+   5.425  1  server_tentatively_writes 
+   5.740  2  server_aborts             
+   6.238  1  server_commits            version=2
+  11.923  2  client_backs_off          
+  12.426  2  client_requests_write     
+  17.529  2  server_tentatively_writes 
+  18.159  2  server_commits            version=3

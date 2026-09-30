@@ -1,0 +1,14 @@
+[[simulation]]
+title = "Locking"
+max_clients = 20
+repeat = 5
+network_mu = 10.0
+network_sigma = 2.0
+work_to_duration = 1.0
+control = "LockingServer"
+write_mu = 2.0
+write_sigma = 1.0
+strategies = [
+  { type = "Constant", constant = 0.5 },
+  { type = "FullJitteredExpo", base = 2.0, cap = 1000.0 },
+]
